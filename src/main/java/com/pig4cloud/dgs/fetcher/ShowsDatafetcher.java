@@ -17,11 +17,11 @@ import com.pig4cloud.dgs.model.Show;
 public class ShowsDatafetcher {
 
 	private final List<Show> shows = List.of(
-			new Show("Stranger Things", 2016),
-			new Show("Ozark", 2017),
-			new Show("The Crown", 2016),
-			new Show("Dead to Me", 2019),
-			new Show("Orange is the New Black", 2013)
+			new Show("java", 1995),
+			new Show("php", 1995),
+			new Show("python", 1990),
+			new Show("golang", 2009),
+			new Show("rust", 2015)
 	);
 
 	@DgsData(parentType = "Query", field = "shows")
